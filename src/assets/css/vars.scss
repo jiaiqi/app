@@ -1,0 +1,20 @@
+html {
+  --lc-color-white: #ffffff;
+  --lc-color-dark: #1a1a1a;
+  --lc-header-height: 60px;
+  --lc-border: 1px solid var(--lc-border-color);
+  --lc-color-bg: var(--el-bg-color);
+  --lc-layout-aside-width: 240px;
+}
+
+html.light {
+  --lc-color: #34495e;
+  --lc-border-color: rgba(60, 60, 60, .12);
+  --lc-bg-color-page: #eff2f5;
+}
+html.dark {
+  --lc-color: rgba(255, 255, 255, .75);
+  --lc-border-color: #363637;
+  // --el-bg-color: #111827;
+  --lc-bg-color-page: #202124;
+}
