@@ -182,7 +182,7 @@ function handleClick(item: RouteRecordRaw) {
       margin: 20px;
       background-color: var(--lc-color-bg);
       box-shadow: var(--el-box-shadow);
-      height: calc(100% - var(-lc-header-height) - 40px);
+      height: calc(100% - var(--lc-header-height) - 40px);
     }
   }
 }

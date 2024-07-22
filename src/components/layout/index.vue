@@ -208,7 +208,7 @@ defineExpose({
 <style lang="scss">
 .es-layout-container {
   display: flex;
-  height: calc(100% - var(-lc-header-height));
+  height: calc(100% - var(--lc-header-height));
   background-color: var(--lc-bg-color-page);
 }
 .es-layout-main {
