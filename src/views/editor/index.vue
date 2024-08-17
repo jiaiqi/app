@@ -42,32 +42,32 @@ const data = ref<EditorDataType>({
     scaleRatio: 1
   },
   elements: [
-    {
-      id: '1',
-      component: 'div',
-      width: 100,
-      height: 100,
-      left: 100,
-      top: 100,
-      text: 'div1',
-      style: {
-        background: '#ff4500',
-        color: '#fff'
-      }
-    },
-    {
-      id: '2',
-      component: 'div',
-      width: 100,
-      height: 100,
-      left: 300,
-      top: 150,
-      text: 'div2',
-      style: {
-        background: '#00ced1',
-        color: '#fff'
-      }
-    }
+    // {
+    //   id: '1',
+    //   component: 'div',
+    //   width: 100,
+    //   height: 100,
+    //   left: 100,
+    //   top: 100,
+    //   text: 'div1',
+    //   style: {
+    //     background: '#ff4500',
+    //     color: '#fff'
+    //   }
+    // },
+    // {
+    //   id: '2',
+    //   component: 'div',
+    //   width: 100,
+    //   height: 100,
+    //   left: 300,
+    //   top: 150,
+    //   text: 'div2',
+    //   style: {
+    //     background: '#00ced1',
+    //     color: '#fff'
+    //   }
+    // }
   ]
 })
 

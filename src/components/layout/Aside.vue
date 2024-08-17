@@ -2,7 +2,7 @@
   <div class="es-layout-aside">
     <slot>
       <el-collapse v-model="activeNames">
-        <el-collapse-item title="通用" name="1">
+        <el-collapse-item title="图表" name="1">
           <div class="collapse-content">
             <div
               class="es-block"
@@ -16,7 +16,7 @@
             </div>
           </div>
         </el-collapse-item>
-        <el-collapse-item title="图标" name="2">
+        <!-- <el-collapse-item title="图标" name="2">
           <div class="collapse-content">
             <div
               class="es-block"
@@ -33,7 +33,7 @@
               <template v-else>{{ item.props.icon }}</template>
             </div>
           </div>
-        </el-collapse-item>
+        </el-collapse-item> -->
       </el-collapse>
     </slot>
   </div>

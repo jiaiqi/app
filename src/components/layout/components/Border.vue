@@ -44,6 +44,7 @@ import ColorPicker from './ColorPicker.vue'
 import { useEditorStore } from '@/store'
 const store = useEditorStore()
 const borderStyleList = [
+  { label: '无', value: 'none' },
   { label: '实线', value: 'solid' },
   { label: '虚线', value: 'dashed' },
   { label: '点线', value: 'dotted' }
@@ -51,9 +52,9 @@ const borderStyleList = [
 const borderStyle = computed({
   get: () => {
     if (!store.current.style!.borderStyle) {
-      store.current.style!.borderStyle = 'solid'
+      store.current.style!.borderStyle = 'none'
     }
-    return store.current.style!.borderStyle || 'solid'
+    return store.current.style!.borderStyle
   },
   set: (val) => {
     store.current.style!.borderStyle = val
